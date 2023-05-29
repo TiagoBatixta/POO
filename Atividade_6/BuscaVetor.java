@@ -12,7 +12,7 @@ public class BuscaVetor {
         System.out.print("Informe um valor para pesquisar no vetor: ");
         double valor = input.nextDouble();
 
-        boolean encontrado = false;
+        boolean encontrado = false; 
         int i = 0;
         while(i < vetor.length){
             if(vetor[i] == valor){

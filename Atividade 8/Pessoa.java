@@ -1,7 +1,12 @@
+
 public class Pessoa {
     private String nome;
     private int idade;
     private String endereco;
+
+    public Pessoa(){
+
+    }
 
     public Pessoa(String nome, int idade, String endereco) {
         this.nome = nome;
@@ -32,4 +37,9 @@ public class Pessoa {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
+    public String toString(){
+        return "\nNome do aluno: "+nome+"\nIdade: "+idade+" anos"+ "\nEndereco: "+endereco;
+    }
+
 }
