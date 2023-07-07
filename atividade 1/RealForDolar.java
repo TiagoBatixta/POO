@@ -10,7 +10,6 @@ public class RealForDolar {
             valorEmReal = input.nextDouble();
         } catch (Exception e) {
             System.out.println("Valor invalido. Tente novamente.");
-            return;
         }
         double valorEmDolar = valorEmReal / CAMBIO;
         System.out.printf("R$ %.2f é equivalente a US$ %.2f\n", valorEmReal, valorEmDolar);

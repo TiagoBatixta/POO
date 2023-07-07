@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.text.DecimalFormat;
 
 public class CalculaDigitoVerificador {
     public static void main(String[] args) {
